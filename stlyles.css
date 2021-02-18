@@ -1,0 +1,76 @@
+.topnav {
+    background-color: rgb(192, 162, 162);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #420a21;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(199, 216, 221);
+    color: rgb(46, 44, 155);
+  }
+                                         
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: rgb(31, 25, 25);
+  }
+
+body{
+  background-color:black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;  
+  color:rgb(22, 13, 13);
+  font-weight: bold;
+ 
+}
+
+  p {
+      text-align: center;
+      text-shadow: 2px 2px 15px rgb(137, 182, 212);
+  }
+   
+  img {
+    box-shadow: 2px 2px 15px rgb(243, 243, 247);
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+  }
+  .form_group {  
+    padding: 10px;  
+    text-align:center;
+    display: block;  
+  }  
+  
+  input {
+    font-size:larger;
+    font-weight:900;
+  }
+
+  h1{
+    color: rgb(17, 54, 175);
+    text-shadow: 2px 2px 3px rgb(199, 96, 96);
+    font-size: 300%;
+  }
+
+  .topnav{
+    text-shadow: 2px 2px 3px rosybrown;
+  }
+
+  .table{
+    table-layout:auto;
+    width: fit-content;
+  }
